@@ -1,10 +1,10 @@
-#include <iostream>
+ #include <iostream>
 #include <cstdlib>
 #include <ctime>
 
 // Функция для генерации случайного пароля
 std::string generatePassword() {
-    const std::string charset = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789абвгдеёжзийклмнопрст;
+    const std::string charset = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789абвгдеёжзийклмнопрстАБВГДЕЁЖЗИЙКЛМНПРОСТУФХЦЧЩ;
     const int passwordLength = 11;
 
     std::string password;
@@ -28,4 +28,4 @@ int main() {
 
     return 0;
 }
-
+ 
